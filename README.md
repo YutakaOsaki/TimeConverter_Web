@@ -1,6 +1,6 @@
 # time_converter
 
-Link -> https://yutakaosaki.github.io/WebTimeConverter/
+Link -> https://yutakaosaki.github.io/TimeConverter_Web/
 
 ### WebTimeConverter Overview
 
