@@ -53,8 +53,8 @@
             <label for="toTimezone">To Timezone:</label>
             <select id="toTimezone" onchange="checkDST(this)">
                 <!-- Frequently used timezones -->
-                <option value="Asia/Tokyo">Asia/Tokyo (UTC+09:00)</option>
                 <option value="Europe/Zurich">Europe/Zurich (UTC+01:00)</option>
+                <option value="Asia/Tokyo">Asia/Tokyo (UTC+09:00)</option>
                 <option value="Europe/Amsterdam">Europe/Amsterdam (UTC+01:00)</option>
                 <option value="America/New_York">America/New_York (UTC-05:00)</option>
                 <!-- Other timezones -->
@@ -89,12 +89,15 @@
         <div class="input-output-section">
             <div class="input-section">
                 <h2>Input</h2>
-                <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+                <textarea id="inputText" placeholder="明日の20:00はいかがでしょうか。"></textarea>
             </div>
             <div class="output-section">
                 <h2>Output</h2>
-                <textarea id="outputText" placeholder="Converted text will appear here..." readonly></textarea>
+                <textarea id="outputText" placeholder="明日の12:00はいかがでしょうか。" readonly></textarea>
             </div>
+        </div>
+        <div>
+            <h3>Please enter the time in the format "hh:mm"</h3>
         </div>
         <button id="convertButton">Convert</button>
         <div id="warningBanner" class="hidden">サマータイムが適用されるタイムゾーンが選択されています。</div>
